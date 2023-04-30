@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
   </head>
   <body>
+    <!-- Login form -->
     <form class="form-signin" method="post" action="<?php echo site_url('Login/masuk'); ?>">
 	  <div class="text-center mb-4">
 		<h1 class="h3 mb-3 font-weight-normal">Binus Kelompok 5 - JTBA</h1>
@@ -36,6 +38,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <input type="checkbox" value="remember-me"> Remember me
 		</label>
 	  </div>
+	  
+	  <!-- Submit button for the login form -->
 	  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 	</form>
   </body>
